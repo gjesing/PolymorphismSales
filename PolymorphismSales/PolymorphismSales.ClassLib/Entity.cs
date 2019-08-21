@@ -8,6 +8,6 @@ namespace PolymorphismSales.ClassLib
     {
         protected int id;
 
-        public int Id { get; }
+        public int Id { get => id; }
     }
 }
