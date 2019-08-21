@@ -9,7 +9,7 @@ namespace PolymorphismSales.ClassLib
     {
         private List<Product> products = new List<Product>();
 
-        protected List<Product> Products { get => products; set => products = value; }
+        public List<Product> Products { get => products; set => products = value; }
 
         public decimal GetPaymentAmount()
         {
