@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolymorphismSales.ClassLib", "PolymorphismSales.ClassLib\PolymorphismSales.ClassLib.csproj", "{BD36CFD0-68EE-4E77-8D6C-8FA6C3692258}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolymorphismSales.ClassLib.Tests", "PolymorphismSales.ClassLib.Tests\PolymorphismSales.ClassLib.Tests.csproj", "{76994EFE-0382-47BE-BD33-F2942469EFC7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{BD36CFD0-68EE-4E77-8D6C-8FA6C3692258}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD36CFD0-68EE-4E77-8D6C-8FA6C3692258}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD36CFD0-68EE-4E77-8D6C-8FA6C3692258}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76994EFE-0382-47BE-BD33-F2942469EFC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76994EFE-0382-47BE-BD33-F2942469EFC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76994EFE-0382-47BE-BD33-F2942469EFC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76994EFE-0382-47BE-BD33-F2942469EFC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
