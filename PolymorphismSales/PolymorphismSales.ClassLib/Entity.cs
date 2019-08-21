@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PolymorphismSales.ClassLib
 {
-    public class Entity
+    public class Entity : IPersistable
     {
         protected int id;
 
