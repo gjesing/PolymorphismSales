@@ -9,6 +9,12 @@ namespace PolymorphismSales.ClassLib
         protected decimal weeklySales;
         protected double commisionRate;
 
+        public SalesRepresentative(string name, decimal salary, decimal weeklySales, double commisionRate) : base(name, salary)
+        {
+            WeeklySales = weeklySales;
+            CommisionRate = commisionRate;
+        }
+
         public decimal WeeklySales { get => weeklySales; set => weeklySales = value; }
         public double CommisionRate { get => commisionRate; set => commisionRate = value; }
 

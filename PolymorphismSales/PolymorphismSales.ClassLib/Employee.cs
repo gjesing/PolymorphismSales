@@ -8,6 +8,11 @@ namespace PolymorphismSales.ClassLib
     {
         protected string name;
 
+        protected Employee(string name)
+        {
+            Name = name;
+        }
+
         public string Name { get => name; set => name = value; }
 
         public abstract decimal Earnings();
