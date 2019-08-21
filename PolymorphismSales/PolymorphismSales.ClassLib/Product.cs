@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PolymorphismSales.ClassLib
 {
-    public class Product
+    public class Product : Entity
     {
         protected string name;
         protected decimal price;

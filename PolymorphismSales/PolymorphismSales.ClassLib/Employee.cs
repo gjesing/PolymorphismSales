@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PolymorphismSales.ClassLib
 {
-    public abstract class Employee : IPayable
+    public abstract class Employee : Entity, IPayable
     {
         protected string name;
 
