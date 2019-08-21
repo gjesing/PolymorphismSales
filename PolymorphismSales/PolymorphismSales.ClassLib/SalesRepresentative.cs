@@ -14,7 +14,7 @@ namespace PolymorphismSales.ClassLib
 
         public override decimal Earnings()
         {
-            return base.Earnings();
+            return salary + weeklySales * Convert.ToDecimal(commisionRate);
         }
     }
 }
