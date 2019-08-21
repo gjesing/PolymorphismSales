@@ -5,7 +5,7 @@ using System.Text;
 
 namespace PolymorphismSales.ClassLib
 {
-    class Invoice : IPayable
+    public class Invoice : IPayable
     {
         private List<Product> products = new List<Product>();
 
