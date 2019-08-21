@@ -6,7 +6,7 @@ namespace PolymorphismSales.ClassLib
 {
     public abstract class Employee : IPayable
     {
-        private string name;
+        protected string name;
 
         public string Name { get => name; set => name = value; }
 

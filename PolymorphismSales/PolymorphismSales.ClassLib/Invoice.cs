@@ -7,7 +7,7 @@ namespace PolymorphismSales.ClassLib
 {
     public class Invoice : IPayable
     {
-        private List<Product> products = new List<Product>();
+        protected List<Product> products = new List<Product>();
 
         public List<Product> Products { get => products; set => products = value; }
 

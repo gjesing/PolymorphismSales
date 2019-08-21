@@ -6,7 +6,7 @@ namespace PolymorphismSales.ClassLib
 {
     public class BaseSalariedEmployee : Employee
     {
-        private decimal salary;
+        protected decimal salary;
 
         public decimal Salary { get => salary; set => salary = value; }
 

@@ -6,8 +6,8 @@ namespace PolymorphismSales.ClassLib
 {
     public class SalesRepresentative : BaseSalariedEmployee
     {
-        private decimal weeklySales;
-        private double commisionRate;
+        protected decimal weeklySales;
+        protected double commisionRate;
 
         public decimal WeeklySales { get => weeklySales; set => weeklySales = value; }
         public double CommisionRate { get => commisionRate; set => commisionRate = value; }

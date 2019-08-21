@@ -6,9 +6,9 @@ namespace PolymorphismSales.ClassLib
 {
     public class Product
     {
-        private string name;
-        private decimal price;
-        private int quantity;
+        protected string name;
+        protected decimal price;
+        protected int quantity;
 
         public string Name { get => name; set => name = value; }
         public decimal Price { get => price; set => price = value; }
