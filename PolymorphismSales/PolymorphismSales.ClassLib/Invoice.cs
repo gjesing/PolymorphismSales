@@ -18,7 +18,7 @@ namespace PolymorphismSales.ClassLib
 
         public decimal GetPaymentAmount()
         {
-            return products.Sum(product => product.Price);
+            return products.Sum(product => product.Quantity * product.Price);
         }
     }
 }
