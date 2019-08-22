@@ -20,7 +20,7 @@ namespace PolymorphismSales.ClassLib
 
         public override decimal Earnings()
         {
-            return salary + weeklySales * Convert.ToDecimal(commisionRate);
+            return base.Earnings() + weeklySales * Convert.ToDecimal(commisionRate);
         }
     }
 }
